@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import monitor_heart from "@material-design-icons/svg/filled/monitor_heart.svg";
+import { ReactComponent as Monitor_heart } from "@material-design-icons/svg/outlined/monitor_heart.svg";
 
 function App() {
   return (
     <div className="App">
-      <monitor_heart />
+      <Monitor_heart />
     </div>
   );
 }
